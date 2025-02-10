@@ -37,7 +37,7 @@ const services = [
     title: 'Honoraires',
     description: 'Consultez nos tarifs pour les différentes prestations.',
     path: '/services/honoraires',
-    className: 'bg-gray-200 text-white', // Ajout de la classe spécifique
+    className: 'bg-gray-200 text-black', // Ajout de la classe spécifique
   },
 ];
 
@@ -58,7 +58,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer ${service.className || ''}`}
+              className={`p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer ${service.className || 'bg-white'}`}
               onClick={() => navigate(service.path)}
             >
               <service.icon className="w-12 h-12 text-blue-600 mb-4" />
