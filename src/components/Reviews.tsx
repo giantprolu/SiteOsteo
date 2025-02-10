@@ -10,7 +10,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <section className="py-20">
+    <section id="Avis" className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Avis Google</h2>
 

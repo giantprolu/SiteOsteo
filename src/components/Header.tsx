@@ -1,29 +1,61 @@
 import { useState, useRef, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
-
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const navigate = useNavigate();
 
   const handleClickOutside = (event: MouseEvent) => {
     if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-      setIsMenuOpen(false);
+      setIsOpen(false);
     }
   };
 
   useEffect(() => {
-    if (isMenuOpen) {
-      document.addEventListener('click', handleClickOutside);
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
     } else {
-      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     }
-
     return () => {
-      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [isMenuOpen]);
+  }, [isOpen]);
+
+  const handleContactClick = () => {
+    setIsOpen(false);
+    navigate('/#contact');
+    setTimeout(() => {
+      const contactElement = document.getElementById('contacte');
+      if (contactElement) {
+        contactElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
+
+  const handleServiceClick = () => {
+    setIsOpen(false);
+    navigate('/#services');
+    setTimeout(() => {
+      const serviceElement = document.getElementById('service');
+      if (serviceElement) {
+        serviceElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
+
+  const handleAvisClick = () => {
+    setIsOpen(false);
+    navigate('/#reviews');
+    setTimeout(() => {
+      const avisElement = document.getElementById('Avis');
+      if (avisElement) {
+        avisElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
 
   return (
     <header className="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
@@ -37,8 +69,9 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#accueil" className="text-blue-900 hover:text-blue-700">Accueil</a>
-            <a href="#services" className="text-blue-900 hover:text-blue-700">Services</a>
-            <a href="#contact" className="text-blue-900 hover:text-blue-700">Contact</a>
+            <a href="#services" className="text-blue-900 hover:text-blue-700" onClick={handleServiceClick}>Services</a>
+            <a href="#contact" className="text-blue-900 hover:text-blue-700" onClick={handleContactClick}>Contact</a>
+            <a href="#reviews" className="text-blue-900 hover:text-blue-700" onClick={handleAvisClick}>Avis</a>
             <a
               href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
               target="_blank"
@@ -50,46 +83,51 @@ const Header = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={toggleMenu}
-            className="md:hidden text-blue-900 p-2"
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-blue-900 p-2" aria-label="Toggle menu">
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
-        {isMenuOpen && (
+        {isOpen && (
           <nav ref={menuRef} className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-4">
               <a
                 href="#accueil"
                 className="text-blue-900 hover:text-blue-700 py-2"
-                onClick={toggleMenu}
+                onClick={() => setIsOpen(false)}
               >
                 Accueil
               </a>
               <a
                 href="#services"
                 className="text-blue-900 hover:text-blue-700 py-2"
-                onClick={toggleMenu}
+                onClick={handleServiceClick}
               >
                 Services
               </a>
               <a
                 href="#contact"
                 className="text-blue-900 hover:text-blue-700 py-2"
-                onClick={toggleMenu}
+                onClick={handleContactClick}
               >
                 Contact
+              </a>
+              <a
+                href="#reviews"
+                className="text-blue-900 hover:text-blue-700 py-2"
+                onClick={handleAvisClick}
+              >
+                Avis
               </a>
               <a
                 href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors text-center"
-                onClick={toggleMenu}
+                onClick={() => setIsOpen(false)}
               >
                 Prendre rendez-vous
               </a>
