@@ -11,10 +11,12 @@ import Perinatal from './Pages/Perinatal';
 import Postures from './Pages/Posture';
 import Trama from './Pages/Trama';
 import Stress from './Pages/Stress';
+import ScrollToTop from './components/ScoolToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <main>
         <Routes>

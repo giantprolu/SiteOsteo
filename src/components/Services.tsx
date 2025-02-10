@@ -1,21 +1,21 @@
 import { useNavigate } from 'react-router-dom';
-import { Brain, Baby, FileWarning as Running, Spline as Spine, Atom as Stomach, BedDouble } from 'lucide-react';
+import { Bone, Utensils, Activity, Baby, Moon, RockingChair } from 'lucide-react';
 
 const services = [
   {
-    icon: Spine,
+    icon: Bone,
     title: 'Douleurs Musculo-squelettiques',
     description: 'Traitement des douleurs dorsales, cervicales, lombaires et articulaires.',
     path: '/services/douleurs-musculo-squelettiques',
   },
   {
-    icon: Stomach,
+    icon: Utensils,
     title: 'Troubles Digestifs',
     description: 'Prise en charge des ballonnements, reflux, coliques et troubles fonctionnels.',
     path: '/services/troubles-digestifs',
   },
   {
-    icon: Running,
+    icon: Activity,
     title: 'Traumatismes Sportifs',
     description: 'Accompagnement dans la récupération, prévention et réhabilitation sportive.',
     path: '/services/traumatismes-sportifs',
@@ -27,13 +27,13 @@ const services = [
     path: '/services/suivi-perinatal',
   },
   {
-    icon: Brain,
+    icon: Moon,
     title: 'Stress et Sommeil',
     description: 'Traitement des troubles du sommeil et gestion du stress.',
     path: '/services/stress-et-sommeil',
   },
   {
-    icon: BedDouble,
+    icon: RockingChair,
     title: 'Posture et Ergonomie',
     description: 'Conseils et corrections posturales pour le quotidien et le travail.',
     path: '/services/posture-et-ergonomie',
