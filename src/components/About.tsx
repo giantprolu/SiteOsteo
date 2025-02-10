@@ -7,7 +7,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="src/Asset/he1h4hfqu28asrcc2xyq.webp"
+              src="src\Asset\he1h4hfqu28asrcc2xyq.webp"
               alt="Quentin Philipot, Ostéopathe"
               className="rounded-lg shadow-lg w-full h-[500px] object-cover"
               loading="lazy"
