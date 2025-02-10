@@ -8,7 +8,7 @@ import Reviews from './components/Reviews';
 import Douleurs from './Pages/Consultation';
 import Troubles from './Pages/Honoraires';
 import Perinatal from './Pages/Nourrisson';
-import Postures from './Pages/ado';
+import Postures from './Pages/AdoEnfant';
 import Trama from './Pages/Sportif';
 import Stress from './Pages/Femme';
 import ScrollToTop from './components/ScoolToTop';
