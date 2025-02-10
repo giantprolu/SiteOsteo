@@ -1,4 +1,3 @@
-import React from 'react';
 import { Brain, Baby, FileWarning as Running, Spline as Spine, Atom as Stomach, BedDouble } from 'lucide-react';
 
 const services = [
