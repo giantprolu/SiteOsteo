@@ -1,5 +1,5 @@
 import React from 'react';
-const imagePath= require('../Asset/he1h4hfqu28asrcc2xyq.webp');
+import imagePath from '../Asset/he1h4hfqu28asrcc2xyq.webp';
 
 const About = () => {
   return (
