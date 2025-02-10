@@ -20,8 +20,9 @@ const About = () => {
             <div className="space-y-4 text-gray-700">
               <p>
               Quentin Philipot, diplômé de l’Institut des Hautes Etudes Ostéopathiques (IdHEO Nantes) vous reçoit depuis 2021 dans son cabinet situé à Aigondigné, au 32 Route Ricardo. 
+              </p>
               <p>Le cabinet est situé à <strong>20 minutes de Niort</strong>, <strong>10 minutes de Celles-sur-Belle</strong>. </p>
-              Vous trouverez des parkings a proximité pour vous stationner. Le cabinet est aux normes PMR pour l’accueil de tous. 
+              <p>Vous trouverez des parkings a proximité pour vous stationner. Le cabinet est aux normes PMR pour l’accueil de tous. 
               </p>
               <p>
               Vous pouvez prendre rendez-vous :

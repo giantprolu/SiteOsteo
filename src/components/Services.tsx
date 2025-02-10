@@ -37,7 +37,7 @@ const services = [
     title: 'Honoraires',
     description: 'Consultez nos tarifs pour les différentes prestations.',
     path: '/services/honoraires',
-    className: 'bg-blue-100 text-blue-700'
+    className: 'bg-gray-200 text-white', // Ajout de la classe spécifique
   },
 ];
 

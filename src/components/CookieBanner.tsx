@@ -4,6 +4,7 @@ const CookieBanner = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    console.log('CookieBanner useEffect called');
     const isAccepted = localStorage.getItem('cookiesAccepted');
     if (!isAccepted) {
       setIsVisible(true);

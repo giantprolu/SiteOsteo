@@ -8,33 +8,35 @@ import Reviews from './components/Reviews';
 import Douleurs from './Pages/Consultation';
 import Troubles from './Pages/Honoraires';
 import Perinatal from './Pages/Nourrisson';
-import Postures from './Pages/Ado';
+import Postures from './Pages/ado';
 import Trama from './Pages/Sportif';
 import Stress from './Pages/Femme';
 import ScrollToTop from './components/ScoolToTop';
 import Cookie from './Pages/CookiePage';
 import Privacy from './Pages/PrivacyPolicy';
+import CookieBanner from './components/CookieBanner'; // Ajout de l'importation
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
-
+      <Header />
+      <CookieBanner /> {/* Ajout du composant CookieBanner */}
       <main>
         <Routes>
-          <Route path="/" element={<><Header /><Home /></>} />
-          <Route path="/about" element={<><Header /><About /></>} />
-          <Route path="/services" element={<><Header /><Services /></>} />
-          <Route path="/contact" element={<><Header /><Contact /></>} />
-          <Route path="/reviews" element={<><Header /><Reviews /></>} />
-          <Route path="/services/consultation-osteopathie" element={<><Header /><Douleurs /></>} />
-          <Route path="/services/osteopathie-du-sportif" element={<><Header /><Trama /></>} />
-          <Route path="/services/osteopathie-du-nourrisson" element={<><Header /><Perinatal /></>} />
-          <Route path="/services/osteopathie-de-la-femme-enceinte" element={<><Header /><Stress /></>} />
-          <Route path="/services/osteopathie-de-l-enfant-et-de-l-adolescent" element={<><Header /><Postures /></>} />
-          <Route path="/services/honoraires" element={<><Header /><Troubles /></>} />
-          <Route path="/cookie-policy" element={<Cookie/>} />
-          <Route path="/privacy-policy" element={<Privacy/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/services/consultation-osteopathie" element={<Douleurs />} />
+          <Route path="/services/osteopathie-du-sportif" element={<Trama />} />
+          <Route path="/services/osteopathie-du-nourrisson" element={<Perinatal />} />
+          <Route path="/services/osteopathie-de-la-femme-enceinte" element={<Stress />} />
+          <Route path="/services/osteopathie-de-l-enfant-et-de-l-adolescent" element={<Postures />} />
+          <Route path="/services/honoraires" element={<Troubles />} />
+          <Route path="/cookie-policy" element={<Cookie />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
         </Routes>
       </main>
     </Router>
