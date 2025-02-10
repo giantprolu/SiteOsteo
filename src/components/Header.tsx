@@ -69,7 +69,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#accueil" className="text-blue-900 hover:text-blue-700">Accueil</a>
-            <a href="#services" className="text-blue-900 hover:text-blue-700" onClick={handleServiceClick}>Services</a>
+            <a href="#services" className="text-blue-900 hover:text-blue-700" onClick={handleServiceClick}>Motifs de consultation</a>
             <a href="#contact" className="text-blue-900 hover:text-blue-700" onClick={handleContactClick}>Contact</a>
             <a href="#reviews" className="text-blue-900 hover:text-blue-700" onClick={handleAvisClick}>Avis</a>
             <a

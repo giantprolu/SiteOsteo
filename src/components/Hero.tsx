@@ -19,11 +19,18 @@ const Hero = () => {
             Ostéopathe à Aigondigné
             <span className="block text-2xl md:text-3xl mt-2">Quentin Philipot D.O.</span>
           </h1>
+          <div className="text-lg md:text-xl text-white mb-6">
+          <a
           
-          <p className="text-xl mb-8">
-            Soins ostéopathiques personnalisés pour adultes, enfants, sportifs et femmes enceintes.
-          </p>
-          
+            href="https://maps.app.goo.gl/bjS5DPHacV9mvPqb6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg md:text-xl text-white hover:text-blue-300 transition-colors"
+            >
+            32 Rte Ricardo, 79370 Aigondigné
+            </a>
+          </div>
+            
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"

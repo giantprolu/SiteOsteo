@@ -19,30 +19,42 @@ const About = () => {
             
             <div className="space-y-4 text-gray-700">
               <p>
-                Diplômé en ostéopathie (D.O.) et fort d'une expérience enrichissante, je propose une
-                approche holistique et personnalisée de l'ostéopathie.
+              Quentin Philipot, diplômé de l’Institut des Hautes Etudes Ostéopathiques (IdHEO Nantes) vous reçoit depuis 2021 dans son cabinet situé à Aigondigné, au 32 Route Ricardo. 
+              <p>Le cabinet est situé à <strong>20 minutes de Niort</strong>, <strong>10 minutes de Celles-sur-Belle</strong>. </p>
+              Vous trouverez des parkings a proximité pour vous stationner. Le cabinet est aux normes PMR pour l’accueil de tous. 
               </p>
-              
               <p>
-                Ma pratique s'appuie sur une connaissance approfondie de l'anatomie et de la
-                biomécanique, permettant une prise en charge globale de mes patients.
+              Vous pouvez prendre rendez-vous :
               </p>
-              
-              <p>
-                Je me forme continuellement aux dernières techniques ostéopathiques pour vous offrir
-                les meilleurs soins possibles, adaptés à vos besoins spécifiques.
-              </p>
+                <div className="flex space-x-4">
+                <a
+                  href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+                >
+                  Doctolib
+                </a>
+                  
+                <a
+                  href="tel:0666211563"
+                  className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+                >
+                06 66 21 15 63
+                </a>
+                </div>
             </div>
             
             <div className="mt-8 space-y-4">
               <h3 className="text-xl font-semibold text-blue-900">Formation</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>
-                Diplôme d'Ostéopathe - Institut des Hautes Études Ostéopathiques de Nantes</li>
-                <li>Spécialisation 
-                ostéopathie pédiatrique, du nourrisson à l'adolescent (CFPCO)</li>
-                <li>Formation en ostéopathie du sport</li>
-                <li>Formation en ostéopathie périnatale</li>
+                Diplôme d'Ostéopathe (D.O.) - Institut des Hautes Études Ostéopathiques de Nantes (IDHEO-Nantes)</li>
+                <li>Ostéopathie pédiatrique, du nourrisson à l'adolescent - CFPCO</li>
+                <li>Ostéopathie et Trail / Running - IdHEO Nantes</li>
+                <li>Comment traiter les tendinites et les blessures musculaires ? - CFPCO</li>
+                <li>Manipulations des nerfs périphériques… Ou pas ? <br/>Prise en charge des sciatiques et cruralgies en thérapie manuelle - CFPCO</li>
+                <li>E-Learning - Neurosciences de la douleur - CFPCOFormation post gradué</li>
               </ul>
             </div>
           </div>
