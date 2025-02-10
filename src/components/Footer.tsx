@@ -35,7 +35,8 @@ const Footer = () => {
           <div className="flex items-center space-x-4 text-sm">
             <span>© {currentYear} All rights reserved.</span>
             <span className="hidden md:inline">•</span>
-            <a href="#" className="hover:text-white transition-colors">Cookie Policy</a>
+            <a href="/cookie-policy" className="hover:text-white transition-colors">Cookie Policy</a>
+            <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
           </div>
         </div>
       </div>
