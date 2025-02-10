@@ -27,10 +27,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-1">Téléphone</h3>
                     <a
-                      href="tel:+33600000000"
+                      href="tel:0666211563"
                       className="text-gray-700 hover:text-blue-600"
                     >
-                      06 00 00 00 00
+                      06 66 21 15 63
                     </a>
                   </div>
                 </div>
@@ -43,11 +43,11 @@ const Contact = () => {
                       <tbody>
                         <tr>
                           <td className="pr-4">Lundi - Vendredi</td>
-                          <td>9h00 - 19h00</td>
+                          <td>8h30 - 19h00</td>
                         </tr>
                         <tr>
                           <td className="pr-4">Samedi</td>
-                          <td>9h00 - 12h00</td>
+                          <td>8h30 - 13h00</td>
                         </tr>
                         <tr>
                           <td className="pr-4">Dimanche</td>
@@ -61,7 +61,7 @@ const Contact = () => {
               
               <div className="mt-8">
                 <a
-                  href="https://www.doctolib.fr"
+                  href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"

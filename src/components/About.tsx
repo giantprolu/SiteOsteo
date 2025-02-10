@@ -7,7 +7,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://github.com/giantprolu/SiteOsteo/blob/master/src/Asset/he1h4hfqu28asrcc2xyq.webp"
+              src="src/Asset/he1h4hfqu28asrcc2xyq.webp"
               alt="Quentin Philipot, Ostéopathe"
               className="rounded-lg shadow-lg w-full h-[500px] object-cover"
               loading="lazy"
@@ -37,8 +37,10 @@ const About = () => {
             <div className="mt-8 space-y-4">
               <h3 className="text-xl font-semibold text-blue-900">Formation</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Diplôme d'Ostéopathie (D.O.)</li>
-                <li>Spécialisation en ostéopathie pédiatrique</li>
+                <li>
+                Diplôme d'Ostéopathe - Institut des Hautes Études Ostéopathiques de Nantes</li>
+                <li>Spécialisation 
+                ostéopathie pédiatrique, du nourrisson à l'adolescent (CFPCO)</li>
                 <li>Formation en ostéopathie du sport</li>
                 <li>Formation en ostéopathie périnatale</li>
               </ul>

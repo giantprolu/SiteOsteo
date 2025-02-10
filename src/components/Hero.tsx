@@ -27,7 +27,7 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://www.doctolib.fr"
+              href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors text-center text-lg"
@@ -36,11 +36,11 @@ const Hero = () => {
             </a>
             
             <a
-              href="tel:+33600000000"
+              href="tel:0666211563"
               className="flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors text-lg"
             >
               <Phone size={20} />
-              06 00 00 00 00
+              06 66 21 15 63
             </a>
           </div>
         </div>
