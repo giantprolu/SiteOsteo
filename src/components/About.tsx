@@ -1,4 +1,5 @@
 import React from 'react';
+const imagePath= require('../Asset/he1h4hfqu28asrcc2xyq.webp');
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="src\Asset\he1h4hfqu28asrcc2xyq.webp"
+              src={imagePath}
               alt="Quentin Philipot, Ostéopathe"
               className="rounded-lg shadow-lg w-full h-[500px] object-cover"
               loading="lazy"
