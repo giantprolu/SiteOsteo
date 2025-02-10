@@ -1,4 +1,3 @@
-import React from 'react';
 import imagePath from '../Asset/he1h4hfqu28asrcc2xyq.webp';
 
 const About = () => {

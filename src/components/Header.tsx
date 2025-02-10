@@ -85,10 +85,11 @@ const Header = () => {
                 Contact
               </a>
               <a
-                href="https://www.doctolib.fr"
+                href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors text-center"
+                onClick={toggleMenu}
               >
                 Prendre rendez-vous
               </a>
