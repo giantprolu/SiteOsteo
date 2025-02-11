@@ -26,6 +26,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/cookie-policy" element={<Cookie />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
@@ -36,8 +38,7 @@ function App() {
           <Route path="/services/osteopathie-de-la-femme-enceinte" element={<Stress />} />
           <Route path="/services/osteopathie-de-l-enfant-et-de-l-adolescent" element={<Postures />} />
           <Route path="/services/honoraires" element={<Troubles />} />
-          <Route path="/cookie-policy" element={<Cookie />} />
-          <Route path="/privacy-policy" element={<Privacy />} />
+          
         </Routes>
       </main>
     </Router>
