@@ -18,29 +18,27 @@ const PrivacyPolicy = () => {
         <section className="bg-white rounded-lg shadow-md p-8 mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Éditeur du site</h2>
           <div className="space-y-4 text-gray-600">
-            <p className="leading-relaxed">
-              Le site [Nom du site] est édité par [Nom de l'entreprise], [forme juridique], 
-              au capital de [montant du capital social], immatriculée au Registre du Commerce 
-              et des Sociétés de [ville] sous le numéro [numéro RCS], dont le siège social 
-              est situé au [adresse complète].
-            </p>
+          <p className="leading-relaxed">
+            Le site [Nom du site] est édité par Chavaudra Nathan (personne physique).
+          </p>
+
             
             <div className="grid gap-4 mt-6">
               <div className="flex items-center space-x-3">
                 <Building2 className="text-gray-400" size={20} />
-                <span>Directeur de la publication : [Nom du directeur de la publication]</span>
+                <span>Directeur de la publication : Chavaudra Nathan</span>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Mail className="text-gray-400" size={20} />
                 <a href="mailto:[adresse e-mail de contact]" className="text-blue-600 hover:text-blue-800 transition-colors">
-                  [adresse e-mail de contact]
+                  nathnathchav@gmail.com
                 </a>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="text-gray-400" size={20} />
-                <span>[numéro de téléphone]</span>
+                <span>0788631797</span>
               </div>
             </div>
           </div>
@@ -50,21 +48,14 @@ const PrivacyPolicy = () => {
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Hébergement</h2>
           <div className="space-y-4 text-gray-600">
             <p className="leading-relaxed">
-              Le site est hébergé par [Nom de l'hébergeur], dont le siège social est situé 
-              au [adresse complète de l'hébergeur].
+              Le site est hébergé par OVH, dont le siège social est situé 
+              au 2 rue Kellermann, 59100 Roubaix.
             </p>
             
             <div className="grid gap-4 mt-6">
               <div className="flex items-center space-x-3">
-                <Mail className="text-gray-400" size={20} />
-                <a href="mailto:[adresse e-mail de l'hébergeur]" className="text-blue-600 hover:text-blue-800 transition-colors">
-                  [adresse e-mail de l'hébergeur]
-                </a>
-              </div>
-              
-              <div className="flex items-center space-x-3">
                 <Phone className="text-gray-400" size={20} />
-                <span>[numéro de téléphone de l'hébergeur]</span>
+                <span>1007</span>
               </div>
             </div>
           </div>
@@ -75,10 +66,10 @@ const PrivacyPolicy = () => {
           <p className="text-gray-600 leading-relaxed">
             L'ensemble des contenus présents sur le site [Nom du site], incluant, de manière 
             non limitative, les textes, images, graphismes, logos, vidéos, sons, icônes et 
-            logiciels, sont la propriété de [Nom de l'entreprise] ou de ses partenaires. 
+            logiciels, sont la propriété de Quentin Philipot ou de ses partenaires. 
             Toute reproduction, représentation, modification, publication, adaptation de tout 
             ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, 
-            est interdite, sauf autorisation écrite préalable de [Nom de l'entreprise].
+            est interdite, sauf autorisation écrite préalable de Chavaudra Nathan.
           </p>
         </section>
 
@@ -91,7 +82,7 @@ const PrivacyPolicy = () => {
             d'opposition aux données personnelles vous concernant. Pour exercer ce droit, 
             vous pouvez nous contacter à l'adresse suivante : 
             <a href="mailto:[adresse e-mail de contact]" className="text-blue-600 hover:text-blue-800 ml-1">
-              [adresse e-mail de contact]
+              nathnathchav@gmail.com
             </a>
           </p>
         </section>

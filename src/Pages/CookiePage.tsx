@@ -16,11 +16,10 @@ const CookiePolicy = () => {
         <h1 className="text-4xl font-bold text-gray-900 mb-8">Cookies</h1>
         
         <section className="bg-white rounded-lg shadow-md p-8 mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Utilisation des cookies</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Utilisation des cookies</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Le site [Nom du site] utilise des cookies pour améliorer votre expérience de navigation et pour des finalités statistiques. 
-            Un cookie est un fichier texte déposé sur votre terminal lors de la visite d'un site. 
-            Il permet de conserver des données utilisateur afin de faciliter la navigation et de permettre certaines fonctionnalités.
+            Le site [Nom du site] ne dépose actuellement aucun cookie. Nous ne suivons aucune donnée personnelle, 
+            et nous ne collectons pas d'informations via des cookies. Vous pouvez naviguer sur le site en toute tranquillité.
           </p>
         </section>
 
