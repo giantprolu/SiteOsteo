@@ -15,13 +15,14 @@ import ScrollToTop from './components/ScoolToTop';
 import Cookie from './Pages/CookiePage';
 import Privacy from './Pages/PrivacyPolicy';
 import CookieBanner from './components/CookieBanner'; // Ajout de l'importation
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <Header />
       <CookieBanner /> {/* Ajout du composant CookieBanner */}
+      <Analytics />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
