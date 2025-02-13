@@ -1,4 +1,7 @@
 const DouleursMusculoSquelettiques = () => {
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:0666211563';
+  };
   return (
     <div className="container mx-auto px-4 py-20">
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie : Soulagement Naturel et Efficace</h1>
@@ -53,12 +56,11 @@ const DouleursMusculoSquelettiques = () => {
       Pour toute information sur les consultations d’ostéopathie vous pouvez appeler directement le cabinet en cliquant sur bouton ci-dessous
       </p>
       <br/>
-      <a
-        href="tel:0666211563"
+      <button onClick={handlePhoneClick}
         className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
       >
         06 66 21 15 63
-      </a>
+      </button>
     </div>
   );
 };

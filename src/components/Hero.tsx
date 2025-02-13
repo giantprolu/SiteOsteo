@@ -1,6 +1,9 @@
 import { Phone } from 'lucide-react';
 
 const Hero = () => {
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:0666211563';
+  };
   return (
     <section
       id="accueil"
@@ -41,13 +44,12 @@ const Hero = () => {
               Prendre rendez-vous
             </a>
             
-            <a
-              href="tel:0666211563"
+            <button onClick={handlePhoneClick}
               className="flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors text-lg"
             >
               <Phone size={20} />
               06 66 21 15 63
-            </a>
+            </button>
           </div>
         </div>
       </div>

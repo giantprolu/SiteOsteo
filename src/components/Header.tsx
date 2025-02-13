@@ -1,11 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleClickOutside = (event: MouseEvent) => {
     if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
@@ -57,6 +58,10 @@ const Header = () => {
     }, 100);
   };
 
+  const isActive = (hash: string) => {
+    return location.hash === hash;
+  };
+
   return (
     <header className="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="container mx-auto px-4 py-4">
@@ -68,10 +73,33 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#accueil" className="text-blue-900 hover:text-blue-700">Accueil</a>
-            <a href="#services" className="text-blue-900 hover:text-blue-700" onClick={handleServiceClick}>Motifs de consultation</a>
-            <a href="#contact" className="text-blue-900 hover:text-blue-700" onClick={handleContactClick}>Contact</a>
-            <a href="#reviews" className="text-blue-900 hover:text-blue-700" onClick={handleAvisClick}>Avis</a>
+            <a
+              href="#accueil"
+              className={`text-blue-900 hover:text-blue-700 ${isActive('#accueil') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+            >
+              Accueil
+            </a>
+            <a
+              href="#services"
+              className={`text-blue-900 hover:text-blue-700 ${isActive('#services') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+              onClick={handleServiceClick}
+            >
+              Motifs de consultation
+            </a>
+            <a
+              href="#reviews"
+              className={`text-blue-900 hover:text-blue-700 ${isActive('#reviews') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+              onClick={handleAvisClick}
+            >
+              Avis
+            </a>
+            <a
+              href="#contact"
+              className={`text-blue-900 hover:text-blue-700 ${isActive('#contact') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+              onClick={handleContactClick}
+            >
+              Contact
+            </a>
             <a
               href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
               target="_blank"
@@ -96,28 +124,28 @@ const Header = () => {
             <div className="flex flex-col space-y-4">
               <a
                 href="#accueil"
-                className="text-blue-900 hover:text-blue-700 py-2"
+                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#accueil') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={() => setIsOpen(false)}
               >
                 Accueil
               </a>
               <a
                 href="#services"
-                className="text-blue-900 hover:text-blue-700 py-2"
+                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#services') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={handleServiceClick}
               >
                 Services
               </a>
               <a
                 href="#contact"
-                className="text-blue-900 hover:text-blue-700 py-2"
+                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#contact') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={handleContactClick}
               >
                 Contact
               </a>
               <a
                 href="#reviews"
-                className="text-blue-900 hover:text-blue-700 py-2"
+                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#reviews') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={handleAvisClick}
               >
                 Avis

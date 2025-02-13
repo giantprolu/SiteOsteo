@@ -1,6 +1,9 @@
 import { MapPin, Phone, Clock } from 'lucide-react';
 
 const Contact = () => {
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:0666211563';
+  };
   return (
     <section id="contacte" className="py-20 bg-blue-50">
       <div className="container mx-auto px-4">
@@ -25,12 +28,12 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-1">Téléphone</h3>
-                    <a
-                      href="tel:0666211563"
+                    <button
+                      onClick={handlePhoneClick}
                       className="text-gray-700 hover:text-blue-600"
                     >
                       06 66 21 15 63
-                    </a>
+                    </button>
                   </div>
                 </div>
                 

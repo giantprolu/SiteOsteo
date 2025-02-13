@@ -1,6 +1,10 @@
 import imagePath from '../Asset/he1h4hfqu28asrcc2xyq.webp';
-
+import React from 'react';
+import { PhoneCall } from 'lucide-react';
 const About = () => {
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:0666211563';
+  };
   return (
     <section className="py-20 bg-blue-50">
       <div className="container mx-auto px-4">
@@ -37,12 +41,10 @@ const About = () => {
                   Doctolib
                 </a>
                   
-                <a
-                  href="tel:0666211563"
-                  className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+                <button onClick={handlePhoneClick} className="flex-1 bg-blue-600 text-white text-center px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
                 >
                 06 66 21 15 63
-                </a>
+                </button>
                 </div>
             </div>
             
