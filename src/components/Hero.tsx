@@ -9,7 +9,7 @@ const Hero = () => {
       id="accueil"
       className="min-h-screen relative flex items-center"
       style={{
-        backgroundImage: 'url("https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80")',
+        backgroundImage: 'url("https://github.com/giantprolu/SiteOsteo/blob/master/src/Asset/IMG_0012.JPG")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
