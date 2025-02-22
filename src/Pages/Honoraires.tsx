@@ -4,14 +4,12 @@ const DouleursMusculoSquelettiques = () => {
   };
     return (
       <div className="container mx-auto px-4 py-20">
-        <h1 className="text-3xl font-bold text-blue-900 mb-6">Honoraire par consultation</h1>
-        <p className="text-gray-700">
-        Une consultation d’ostéopathie n’est pas remboursée par l’Assurance Maladie. 
-        </p>
+        <h1 className="text-3xl font-bold text-blue-900 mb-6">Honoraires </h1>
         <p className="text-gray-700 mt-4">
+        Une consultation d’ostéopathie n’est pas remboursée par l’Assurance Maladie. 
         Cependant, certaines mutuelles prennent en charge en totalité ou en partie les frais engagés.
         <p>Une facture vous sera délivrée en fin de consultation permettant ainsi un remboursement par votre mutuelle.</p>
-        Les règlements pourront s’effectuer par chèque ou espèces.
+        Les règlements pourront s’effectuer par <strong>chèque</strong> ou <strong>espèces</strong>.
         </p>
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Honoraires pratiqués par votre ostéopathe :</h2>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">

@@ -134,7 +134,7 @@ const Header = () => {
                 className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#services') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={handleServiceClick}
               >
-                Services
+                Motifs de consultation
               </a>
               <a
                 href="#contact"

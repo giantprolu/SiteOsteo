@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
 const Contact = () => {
   const handlePhoneClick = () => {
@@ -40,7 +40,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <Phone className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                  <Mail className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-1">Email</h3>
                     <button
