@@ -1,4 +1,5 @@
 import { Phone } from 'lucide-react';
+import backgroundImage from '../Asset/IMG_0012.webp'; // Import de l'image locale
 
 const Hero = () => {
   const handlePhoneClick = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
       id="accueil"
       className="min-h-screen relative flex items-center"
       style={{
-        backgroundImage: 'url("https://github.com/giantprolu/SiteOsteo/blob/master/src/Asset/IMG_0012.JPG")',
+        backgroundImage: `url(${backgroundImage})`, // Utilisation de l'image importée
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
