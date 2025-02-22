@@ -43,10 +43,9 @@ const DouleursMusculoSquelettiques = () => {
       </h2>
       <p className="text-gray-700 mt-4">
       L’ostéopathie s’adapte aux besoins spécifiques de chaque enfant, en prenant en compte son âge, son mode de vie et ses activités. 
-      Une prise en charge précoce permet d’éviter l’installation de troubles posturaux qui pourraient entraîner des douleurs chroniques à l’âge adulte.
       </p>
-      <p className="text-gray-700 mt-4">
-        2024 : « Ostéopathie pédiatrique, du nourrisson à l'adolescent » - CFPCO
+      <p className="text-gray-700 mt-4 font-bold">
+      L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 
       </p>
       <p className="text-gray-700 mt-4 font-bold">
       Pour toute information sur les consultations d’ostéopathie vous pouvez appeler directement le cabinet en cliquant sur bouton ci-dessous
@@ -57,6 +56,11 @@ const DouleursMusculoSquelettiques = () => {
       >
         06 66 21 15 63
       </button>
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Formations</h2>
+      <p className="text-gray-700 mt-4">
+        2024 : « Ostéopathie pédiatrique, du nourrisson à l'adolescent » - CFPCO
+      </p>
+      
     </div>
   );
 };

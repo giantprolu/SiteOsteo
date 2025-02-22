@@ -5,31 +5,31 @@ const services = [
   {
     icon: Bone,
     title: 'Consultation d’ostéopathie',
-    description: 'Traitement des douleurs dorsales, cervicales, lombaires et articulaires.',
+    description: '',
     path: '/services/consultation-osteopathie',
   },
   {
     icon: Activity,
     title: 'Ostéopathie du sportif',
-    description: 'Accompagnement dans la récupération, prévention et réhabilitation sportive.',
+    description: '',
     path: '/services/osteopathie-du-sportif',
   },
   {
     icon: Baby,
     title: 'Ostéopathie du nourrisson',
-    description: 'Soins adaptés aux femmes enceintes et aux nourrissons.',
+    description: '',
     path: '/services/osteopathie-du-nourrisson',
   },
   {
     icon: HeartPulse,
     title: 'Ostéopathie de la femme enceinte',
-    description: 'Traitement des troubles du sommeil et gestion du stress.',
+    description: '',
     path: '/services/osteopathie-de-la-femme-enceinte',
   },
   {
     icon: PersonStanding,
     title: 'Ostéopathie de l’enfant et de l’adolescent',
-    description: 'Soins adaptés aux enfants et adolescents.',
+    description: '',
     path: '/services/osteopathie-de-l-enfant-et-de-l-adolescent',
   },
   {
@@ -50,10 +50,6 @@ const Services = () => {
         <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">
           Motifs de consultation
         </h2>
-        <h3 className="text-center mb-8">
-          Consultation d’ostéopathie : L'ostéopathie est de plus en plus reconnue pour son efficacité dans le traitement des douleurs musculo-squelettiques.
-          <br />Elle s'avère également bénéfique pour divers troubles, tels que les problèmes digestifs, urinaires, gynécologiques, respiratoires, ainsi que pour les céphalées et les troubles ORL.
-        </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div

@@ -58,6 +58,9 @@ const OsteopathieFemmeEnceinte = () => {
         Consultez un ostéopathe spécialisé en périnatalité pour une grossesse harmonieuse et une récupération optimale après l’accouchement.
       </p>
       <p className="text-gray-700 mt-4 font-bold">
+      L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 
+      </p>
+      <p className="text-gray-700 mt-4 font-bold">
       Pour toute information sur les consultations d’ostéopathie vous pouvez appeler directement le cabinet en cliquant sur bouton ci-dessous
       </p>
       <br/>

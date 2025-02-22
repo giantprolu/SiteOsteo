@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="max-w-2xl text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Ostéopathe à Aigondigné
-            <span className="block text-2xl md:text-3xl mt-2">Quentin Philipot D.O.</span>
+            <span className="block text-2xl md:text-3xl mt-2">Quentin Philipot</span>
           </h1>
           <div className="text-lg md:text-xl text-white mb-6">
           <a

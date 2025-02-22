@@ -37,7 +37,9 @@ Votre ostéopathe, passionné par le sport et formé en ostéopathie du sportif,
       <p className="text-gray-700 mt-4">
         Intégrez l’ostéopathie dans votre préparation physique pour maximiser vos performances et éviter les blessures. Que vous pratiquiez la course à pied, le trail, le tennis, le football ou toute autre discipline, un suivi ostéopathique adapté peut faire la différence.
       </p>
-      <p className="text-gray-700 mt-6 italic">2021 : « Ostéopathie et Trail / Running » - IdHEO Nantes</p>
+      <p className="text-gray-700 mt-4 font-bold">
+      L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 
+      </p>
       <p className="text-gray-700 mt-4 font-bold">
       Pour toute information sur les consultations d’ostéopathie vous pouvez appeler directement le cabinet en cliquant sur bouton ci-dessous
       </p>
@@ -47,6 +49,9 @@ Votre ostéopathe, passionné par le sport et formé en ostéopathie du sportif,
       >
         06 66 21 15 63
       </button>
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Formations</h2>
+      <p className="text-gray-700 mt-6 italic">2021 : « Ostéopathie et Trail / Running » - IdHEO Nantes</p>
+      
     </div>
   );
 };

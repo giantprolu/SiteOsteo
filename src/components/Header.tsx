@@ -74,7 +74,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a
-              href="#accueil"
+              href="/"
               className={`text-blue-900 hover:text-blue-700 ${isActive('#accueil') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
             >
               Accueil

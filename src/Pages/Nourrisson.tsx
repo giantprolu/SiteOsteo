@@ -47,8 +47,11 @@ const DouleursMusculoSquelettiques = () => {
         <li>Problèmes de succion, difficultés d’allaitement</li>
         <li>Troubles du sommeil, agitation excessive</li>
       </ul>
+      <p className="text-gray-700 mt-4">
+      L’ostéopathie s’adapte aux besoins spécifiques de chaque enfant, en prenant en compte son âge, son mode de vie et ses activités. 
+      </p>
       <p className="text-gray-700 mt-4 font-bold">
-      Prenez soin de vous et de votre bébé en consultant un ostéopathe spécialisé en périnatalité.
+      L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 
       </p>
       <p className="text-gray-700 mt-4 font-bold">
       Pour toute information sur les consultations d’ostéopathie vous pouvez appeler directement le cabinet en cliquant sur bouton ci-dessous
@@ -59,6 +62,10 @@ const DouleursMusculoSquelettiques = () => {
       >
         06 66 21 15 63
       </button>
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Formations</h2>
+      <p className="text-gray-700 mt-4">
+        2024 : « Ostéopathie pédiatrique, du nourrisson à l'adolescent » - CFPCO
+      </p>
     </div>
   );
 };
