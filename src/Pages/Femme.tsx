@@ -21,8 +21,8 @@ const OsteopathieFemmeEnceinte = () => {
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
         <li><strong>Douleurs et tensions musculaires</strong> : lombalgie, sciatique, douleurs dorsales et cervicales, douleurs costales et sensation d’oppression thoracique, douleurs au niveau du bassin et du coccyx, etc.</li>
-        <li><strong>Troubles digestifs et circulatoires</strong> : nausées, reflux gastro-œsophagiens, ballonnements, constipation et troubles intestinaux, jambes lourdes, œdèmes, mauvaise circulation sanguine.</li>
-        <li><strong>Préparation à l’accouchement</strong> : travail sur la mobilité du bassin.</li>
+        <li><strong>Troubles digestifs et circulatoires</strong> : nausées, reflux gastro-œsophagiens, ballonnements, constipation et troubles intestinaux, jambes lourdes, œdèmes, mauvaise circulation sanguine</li>
+        <li><strong>Préparation à l’accouchement</strong> : travail sur la mobilité du bassin</li>
       </ul>
 
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Quand consulter un ostéopathe ?</h2>
@@ -30,8 +30,8 @@ const OsteopathieFemmeEnceinte = () => {
       L’ostéopathie s’adresse à toutes les femmes enceintes, quel que soit le stade de leur grossesse. 
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li><strong>En cas de douleurs ou d’inconforts.</strong></li>
-        <li><strong>Avant l’accouchement.</strong></li>
+        <li><strong>En cas de douleurs ou d’inconforts</strong></li>
+        <li><strong>Avant l’accouchement</strong></li>
         <li><strong>Après l’accouchement</strong> : soulager les tensions post-partum</li>
       </ul>
       <p className="text-gray-700 mt-4">

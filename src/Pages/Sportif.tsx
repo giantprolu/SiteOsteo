@@ -12,14 +12,16 @@ const DouleursMusculoSquelettiques = () => {
       
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour qui s’adresse l’ostéopathie du sportif ?</h2>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li><strong>Les sportifs amateurs et réguliers.</strong></li>
-        <li><strong>Les athlètes de haut niveau et professionnels.</strong></li>
+        <li><strong>Les sportifs amateurs et réguliers</strong></li>
+        <li><strong>Les athlètes de haut niveau et professionnels</strong></li>
         <li><strong>Les jeunes sportifs en pleine croissance</strong> : participation au bien-être lors des changements physiologiques (croissance) en diminuant les douleurs liés à ceux-ci</li>
         <li><strong>Les sportifs en rééducation</strong> : accompagnement après une blessure ou une chirurgie pour une récupération optimale</li>
       </ul>
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour quoi consulter un ostéopathe du sport ?</h2>
       <p className="text-gray-700 mt-4">
-      L'ostéopathie permet d'intervenir sur de nombreux troubles liés à la pratique sportive. Les traumatismes les plus fréquents chez les sportifs incluent les tendinites (épaule, coude, genou, tendon d’Achille), les entorses, les contractures musculaires, les douleurs articulaires dues à la surcharge d’entraînement ou encore les micro-traumatismes répétés.
+      L'ostéopathie permet d'intervenir sur de nombreux troubles liés à la pratique sportive. 
+      Les traumatismes les plus fréquents chez les sportifs incluent les tendinites (épaule, coude, genou, tendon d’Achille), les entorses, les contractures musculaires, 
+      les douleurs articulaires dues à la surcharge d’entraînement ou encore les micro-traumatismes répétés.
       </p>
       <p className="text-gray-700 mt-4">
       L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 

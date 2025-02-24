@@ -6,7 +6,8 @@ const DouleursMusculoSquelettiques = () => {
     <div className="container mx-auto px-4 py-20">
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie du nourrisson</h1>
       <p className="text mb-8">
-      L'ostéopathie du nourrisson est une approche douce et non invasive visant à aider à résoudre certains déséquilibres ou inconforts chez les bébés, souvent liés à leur développement ou à des événements survenus lors de l'accouchement.
+      L'ostéopathie du nourrisson est une approche douce et non invasive visant à aider à résoudre certains déséquilibres ou inconforts chez les bébés, 
+      souvent liés à leur développement ou à des événements survenus lors de l'accouchement.
       </p>
       
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour qui s’adresse l’ostéopathie du nourrisson ?</h2>

@@ -16,10 +16,10 @@ const DouleursMusculoSquelettiques = () => {
       L'ostéopathie pédiatrique concerne :
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li><strong>Les jeunes enfants (dès les premiers mois de vie)</strong> : certains bébés peuvent rencontrer des tensions dues à l'accouchement ou aux premiers apprentissages moteurs.</li>
-        <li><strong>Les enfants en pleine croissance</strong> : à mesure qu'ils grandissent, les enfants développent leur posture et leur motricité, ce qui peut engendrer des gênes ou des douleurs.</li>
-        <li><strong>Les adolescents.</strong></li>
-        <li><strong>Les enfants et adolescents pratiquant une activité sportive.</strong></li>
+        <li><strong>Les jeunes enfants (dès les premiers mois de vie)</strong> : certains bébés peuvent rencontrer des tensions dues à l'accouchement ou aux premiers apprentissages moteurs</li>
+        <li><strong>Les enfants en pleine croissance</strong> : à mesure qu'ils grandissent, les enfants développent leur posture et leur motricité, ce qui peut engendrer des gênes ou des douleurs</li>
+        <li><strong>Les adolescents</strong></li>
+        <li><strong>Les enfants et adolescents pratiquant une activité sportive</strong></li>
       </ul>
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour quoi consulter un ostéopathe pour son enfant ou son adolescent ?</h2>
       <p className="text-gray-700 mt-4">
@@ -27,21 +27,21 @@ const DouleursMusculoSquelettiques = () => {
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
         <li><strong>Pathologies de croissance</strong> : Sever (talon), Osgood-Schlatter (genou), Sinding-Larsen (genou), etc.</li>
-        <li><strong>Troubles posturaux</strong> : douleurs liées à la croissance, scoliose, torticolis.</li>
+        <li><strong>Troubles posturaux</strong> : douleurs liées à la croissance, scoliose, torticolis</li>
         <li><strong>Problèmes ORL récurrents</strong> : otites, sinusites, rhinites chroniques, etc.</li>
         <li><strong>Troubles digestifs</strong> : reflux gastro-oesophagien, constipation, ballonnements, etc.</li>
-        <li><strong>Troubles du sommeil</strong> : difficultés d'endormissement, sommeil agitatif.</li>
+        <li><strong>Troubles du sommeil</strong> : difficultés d'endormissement, sommeil agitatif</li>
         <li><strong>Douleurs liés à un traumatisme ou à une chute</strong> : accidents domestiques, chutes à vélo, blessures sportives</li>
       </ul>
 
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Quand consulter un ostéopathe pour son enfant ou son adolescent ?</h2>
       <p className="text-gray-700 mt-4">
-      L’ostéopathie s’adapte aux besoins spécifiques de chaque enfant, en prenant en compte son âge, son mode de vie et ses activités. 
+      L'ostéopathie est une approche douce et naturelle qui accompagne l'enfant et l'adolescent tout au long de leur croissance. Il est recommandé de consulter un ostéopathe dans plusieurs situations :
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li><strong>Lors de douleurs ou de gênes corporelles.</strong></li>
-        <li><strong>Après un traumatisme ou une chute.</strong></li>
-        <li><strong>Pendant un traitement orthodontique</strong> : l'ostéopathie peut aider à limiter les douleurs et les tensions liées au traitement orthodontique.</li>
+        <li><strong>Lors de douleurs ou de gênes corporelles</strong></li>
+        <li><strong>Après un traumatisme ou une chute</strong></li>
+        <li><strong>Pendant un traitement orthodontique</strong> : l'ostéopathie peut aider à limiter les douleurs et les tensions liées au traitement orthodontique</li>
       </ul>
 
       <p className="text-gray-700 mt-4 ">
