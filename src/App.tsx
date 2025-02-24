@@ -16,6 +16,8 @@ import Cookie from './Pages/CookiePage';
 import Privacy from './Pages/PrivacyPolicy';
 import CookieBanner from './components/CookieBanner'; // Ajout de l'importation
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 function App() {
   return (
     <Router>
@@ -23,6 +25,7 @@ function App() {
       <Header />
       <CookieBanner /> {/* Ajout du composant CookieBanner */}
       <Analytics />
+      
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -40,6 +43,7 @@ function App() {
           <Route path="/privacy-policy" element={<Privacy />} />
         </Routes>
       </main>
+      <SpeedInsights />
     </Router>
   );
 }
