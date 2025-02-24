@@ -5,46 +5,46 @@ const DouleursMusculoSquelettiques = () => {
   return (
     <div className="container mx-auto px-4 py-20">
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie de l’enfant et de l’adolescent</h1>
-      <p className="text-gray-700">
-      Ostéopathie de l’enfant et de l’adolescent : un accompagnement adapté à chaque âge
+      <p className="text mb-8">
+      L'ostéopathie de l’enfant et de l’adolescent est une approche thérapeutique qui s’adapte aux besoins spécifiques des jeunes patients.
+      En effet, elle s’adapte aux besoins spécifiques de chaque enfant, en prenant en compte son âge, son mode de vie et ses activités. 
+      Aussi, elle prend en compte la croissance et les changements physiologiques propres à chaque tranche d’âge. 
       </p>
+      
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour qui s’adresse l’ostéopathie de l’enfant et de l’adolescent ?</h2>
       <p className="text-gray-700 mt-4">
-      L’ostéopathie pédiatrique est une approche douce et préventive qui permet d’accompagner les enfants et les adolescents tout au long de leur croissance. 
-      Dès la naissance et jusqu’à l’adolescence, le corps subit de nombreux changements physiologiques qui peuvent engendrer des tensions, des douleurs et des déséquilibres posturaux. 
-      Un suivi ostéopathique régulier aide à prévenir et à corriger ces troubles pour favoriser un développement harmonieux.
-      </p>
-      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pourquoi consulter un ostéopathe pour un enfant ou un adolescent ?</h2>
-      <p className="text-gray-700 mt-4">
-      Les enfants et les adolescents adoptent souvent de mauvaises postures au quotidien : port de cartable trop lourd, utilisation prolongée des écrans, positions assises prolongées à l’école…
-      Ces habitudes peuvent entraîner des tensions musculaires et articulaires, des troubles de la posture et des douleurs chroniques. 
-      L’ostéopathie permet d’identifier et de corriger ces déséquilibres dès leur apparition.
+      L'ostéopathie pédiatrique concerne :
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li>Troubles posturaux (dos voûté, scoliose, lordose, cyphose)</li>
-        <li>Douleurs de croissance (genoux, hanches, dos)</li>
-        <li>Tensions musculaires et raideurs articulaires</li>
-        <li>Maux de tête et migraines liés aux tensions cervicales</li>
-        <li>Fatigue chronique et troubles du sommeil</li>
-        <li>Problèmes d’attention et de concentration liés aux tensions crâniennes</li>
-        <li>Suites de traumatismes ou de chutes (sport, jeux, accidents)</li>
+        <li><strong>Les jeunes enfants (dès les premiers mois de vie)</strong> : certains bébés peuvent rencontrer des tensions dues à l'accouchement ou aux premiers apprentissages moteurs.</li>
+        <li><strong>Les enfants en pleine croissance</strong> : à mesure qu'ils grandissent, les enfants développent leur posture et leur motricité, ce qui peut engendrer des gênes ou des douleurs.</li>
+        <li><strong>Les adolescents.</strong></li>
+        <li><strong>Les enfants et adolescents pratiquant une activité sportive.</strong></li>
       </ul>
-      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Ostéopathie pour un bon équilibre postural et un développement harmonieux</h2>
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour quoi consulter un ostéopathe pour son enfant ou son adolescent ?</h2>
       <p className="text-gray-700 mt-4">
-      Un suivi ostéopathique permet de :
+      L'ostéopathie peut intervenir sur différents troubles et inconforts :
       </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li>✅ Soulager les douleurs liées à la croissance et aux tensions musculaires</li>
-        <li>✅ Améliorer la posture et prévenir les déséquilibres de la colonne vertébrale</li>
-        <li>✅ Favoriser une bonne mobilité articulaire et musculaire</li>
-        <li>✅ Réduire les tensions liées au stress et aux habitudes du quotidien</li>
-        <li>✅ Accompagner les jeunes sportifs pour prévenir les blessures et optimiser leurs performances</li>
+        <li><strong>Pathologies de croissance</strong> : Sever (talon), Osgood-Schlatter (genou), Sinding-Larsen (genou), etc.</li>
+        <li><strong>Troubles posturaux</strong> : douleurs liées à la croissance, scoliose, torticolis.</li>
+        <li><strong>Problèmes ORL récurrents</strong> : otites, sinusites, rhinites chroniques, etc.</li>
+        <li><strong>Troubles digestifs</strong> : reflux gastro-oesophagien, constipation, ballonnements, etc.</li>
+        <li><strong>Troubles du sommeil</strong> : difficultés d'endormissement, sommeil agitatif.</li>
+        <li><strong>Douleurs liés à un traumatisme ou à une chute</strong> : accidents domestiques, chutes à vélo, blessures sportives</li>
       </ul>
-      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Un accompagnement sur-mesure pour chaque enfant et adolescent
-      </h2>
+
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Quand consulter un ostéopathe pour son enfant ou son adolescent ?</h2>
       <p className="text-gray-700 mt-4">
       L’ostéopathie s’adapte aux besoins spécifiques de chaque enfant, en prenant en compte son âge, son mode de vie et ses activités. 
       </p>
-      <p className="text-gray-700 mt-4 font-bold">
+      <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
+        <li><strong>Lors de douleurs ou de gênes corporelles.</strong></li>
+        <li><strong>Après un traumatisme ou une chute.</strong></li>
+        <li><strong>Pendant un traitement orthodontique</strong> : l'ostéopathie peut aider à limiter les douleurs et les tensions liées au traitement orthodontique.</li>
+      </ul>
+
+      <p className="text-gray-700 mt-4 ">
       L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 
       </p>
       <p className="text-gray-700 mt-4 font-bold">

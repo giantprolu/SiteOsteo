@@ -5,52 +5,30 @@ const DouleursMusculoSquelettiques = () => {
   return (
     <div className="container mx-auto px-4 py-20">
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie du nourrisson</h1>
-      <p className="text-gray-700">
-      L’ostéopathie périnatale est une approche douce et naturelle permettant d’accompagner les femmes enceintes tout au long de leur grossesse et d’aider les nourrissons à bien démarrer leur développement.
-      </p>
-      <p className="text-gray-700 mt-4">
-      La grossesse entraîne de nombreuses transformations physiques et hormonales qui peuvent provoquer divers inconforts : douleurs lombaires, sciatiques, tensions musculaires, troubles digestifs ou encore fatigue. L’ostéopathie permet de soulager ces désagréments, d’améliorer la mobilité du bassin et d’optimiser les fonctions physiologiques pour préparer un accouchement plus serein.
-      </p>
-      <p className="text-gray-700 mt-4">
-      Après la naissance, l’ostéopathie post-partum aide la maman à rééquilibrer son corps et favorise une meilleure récupération. Quant aux nourrissons, ils peuvent bénéficier de soins ostéopathiques pour corriger certains déséquilibres liés à l’accouchement, notamment en cas de torticolis, coliques, reflux ou troubles du sommeil.
+      <p className="text mb-8">
+      L'ostéopathie du nourrisson est une approche douce et non invasive visant à aider à résoudre certains déséquilibres ou inconforts chez les bébés, souvent liés à leur développement ou à des événements survenus lors de l'accouchement.
       </p>
       
-      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Quels sont les bénéfices de l’ostéopathie pendant la grossesse ?</h2>
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour qui s’adresse l’ostéopathie du nourrisson ?</h2>
+      <p className="text-gray-700 mt-4">L’ostéopathie pédiatrique s’adresse à tous les nourrissons, qu’ils soient en parfaite santé ou qu’ils présentent des troubles fonctionnels. 
+      Certains bébés peuvent naître avec des tensions dues à la grossesse ou à l’accouchement, nécessitant une prise en charge précoce.</p>
+      
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour quoi consulter un ostéopathe pour son nourrisson ?</h2>
+      <p className="text-gray-700 mt-4">
+      L’ostéopathie aide à soulager de nombreux troubles courants chez le nourrisson, en améliorant son bien-être.
+      <br/>Les motifs de consultation les plus fréquents sont :
+      </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li>Soulagement des douleurs lombaires, sciatiques et ligamentaires</li>
-        <li>Amélioration de la digestion (reflux, nausées, constipation)</li>
-        <li>Réduction des tensions du diaphragme pour une meilleure respiration</li>
-        <li>Optimisation de la mobilité du bassin pour un accouchement facilité</li>
+        <li><strong>Troubles digestifs</strong> : coliques, reflux gastro-œsophagien (RGO), constipation, ballonnements, etc.</li>
+        <li><strong>Plagiocéphalie et torticolis</strong> : asymétrie du crâne ou du cou</li>
+        <li><strong>Difficultés de succion et allaitement</strong></li>
       </ul>
       
-      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pourquoi consulter après l’accouchement ?</h2>
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Quand consulter un ostéopathe pour son nourrisson ?</h2>
       <p className="text-gray-700 mt-4">
-      L’ostéopathie postnatale permet de :
+      Il est recommandé de consulter un ostéopathe dans les premières semaines de vie en cas de troubles fonctionnels.
       </p>
-      <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li>✅ Rééquilibrer le bassin et le périnée après l’accouchement</li>
-        <li>✅ Soulager les douleurs liées à l’allaitement et au portage du bébé</li>
-        <li>✅ Améliorer le sommeil et la récupération post-partum</li>
-        <li>✅ Favoriser le bien-être du nourrisson en cas de coliques, reflux ou troubles du sommeil</li>
-      </ul>
-      
-      <h2 className="text-2xl font-semibold text-blue-900 mt-6">L’Ostéopathie du Nourrisson : Une Approche Douce et Adaptée</h2>
-      <p className="text-gray-700 mt-4">
-      L’ostéopathie du nourrisson est une approche douce et non invasive qui vise à corriger certains déséquilibres liés à la naissance ou à la croissance. Un accouchement difficile, une naissance par césarienne ou l’utilisation de forceps peuvent provoquer des tensions chez le bébé, impactant son confort et son développement.
-      </p>
-      <p className="text-gray-700 mt-4">
-      Une séance d’ostéopathie peut aider votre enfant en cas de :
-      </p>
-      <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li>Coliques, reflux gastro-œsophagien (RGO), troubles digestifs</li>
-        <li>Torticolis, plagiocéphalie (tête plate), tensions musculaires</li>
-        <li>Problèmes de succion, difficultés d’allaitement</li>
-        <li>Troubles du sommeil, agitation excessive</li>
-      </ul>
-      <p className="text-gray-700 mt-4">
-      L’ostéopathie s’adapte aux besoins spécifiques de chaque enfant, en prenant en compte son âge, son mode de vie et ses activités. 
-      </p>
-      <p className="text-gray-700 mt-4 font-bold">
+      <p className="text-gray-700 mt-4 ">
       L'ostéopathie offre une approche personnalisée et globale pour améliorer votre bien-être au quotidien. 
       </p>
       <p className="text-gray-700 mt-4 font-bold">
