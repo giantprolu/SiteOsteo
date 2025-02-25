@@ -17,6 +17,7 @@ import Privacy from './Pages/PrivacyPolicy';
 import CookieBanner from './components/CookieBanner'; // Ajout de l'importation
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import Error from './Pages/NotFound';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/services/honoraires" element={<Troubles />} />
           <Route path="/cookie-policy" element={<Cookie />} />
           <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </main>
       <SpeedInsights />
