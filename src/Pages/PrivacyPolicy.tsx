@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
       <div className="max-w-4xl mx-auto px-4 py-12">
       <button
           onClick={() => navigate(-1)}
-          className="mb-8 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition-colors"
+          className="mt-8 mb-8 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition-colors"
         >
           Retour
         </button>
@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Éditeur du site</h2>
           <div className="space-y-4 text-gray-600">
           <p className="leading-relaxed">
-            Le site [Nom du site] est édité par Chavaudra Nathan (personne physique).
+            Le site philipot-osteo est édité par Chavaudra Nathan (personne physique).
           </p>
 
             
