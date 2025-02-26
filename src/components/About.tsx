@@ -1,6 +1,5 @@
 import imagePath from '../Asset/he1h4hfqu28asrcc2xyq.webp';
-import React from 'react';
-import { PhoneCall } from 'lucide-react';
+
 const About = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:0666211563';
