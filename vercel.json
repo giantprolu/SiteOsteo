@@ -2,6 +2,10 @@
     "rewrites": [
       { "source": "/(.*)", "destination": "/index.html" }
     ],
+    
+      "routes": [
+        { "src": "/sitemap.xml", "dest": "/sitemap.xml" }
+      ],
     "github": {
     "deployPreviews": {
       "enabled": true

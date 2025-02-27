@@ -17,7 +17,6 @@ import CookieBanner from './components/CookieBanner';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import Error from './Pages/NotFound';
-import Sitemap from './Pages/Sitemap'; // Importer le composant Sitemap
 
 function App() {
   return (
@@ -41,7 +40,6 @@ function App() {
           <Route path="/motifs/honoraires" element={<Troubles />} />
           <Route path="/cookie-policy" element={<Cookie />} />
           <Route path="/privacy-policy" element={<Privacy />} />
-          <Route path="/sitemap.xml" element={<Sitemap />} /> {/* Ajouter la route pour le sitemap */}
           <Route path="*" element={<Error />} />
         </Routes>
       </main>
