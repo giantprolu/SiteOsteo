@@ -1,5 +1,5 @@
 import { Phone } from 'lucide-react';
-import backgroundImage from '../Asset/IMG_0012.webp'; // Import de l'image locale
+import backgroundImage from '../Asset/IMG_0012.webp'; 
 
 const Hero = () => {
   const handlePhoneClick = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
       id="accueil"
       className="min-h-screen relative flex items-center"
       style={{
-        backgroundImage: `url(${backgroundImage})`, // Utilisation de l'image importée
+        backgroundImage: `url(${backgroundImage})`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

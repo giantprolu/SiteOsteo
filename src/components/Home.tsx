@@ -9,11 +9,11 @@ import Footer from './Footer';
 const Home = () => {
   return (
     <>
-      <Hero />
-      <About />
-      <Services />
-      <Reviews />
-      <Contact />
+        <Hero />
+        <About />
+        <Services />
+        <Reviews />
+        <Contact />
       <CookieBanner />
       <Footer />
     </>

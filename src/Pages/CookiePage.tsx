@@ -9,7 +9,7 @@ const CookiePolicy = () => {
       <div className="max-w-4xl mx-auto px-4 py-12">
         <button
           onClick={() => navigate(-1)}
-          className="mb-8 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition-colors"
+          className="mt-8 mb-8 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800 transition-colors"
         >
           Retour
         </button>
@@ -18,7 +18,7 @@ const CookiePolicy = () => {
         <section className="bg-white rounded-lg shadow-md p-8 mb-8">
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Utilisation des cookies</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-            Le site [Nom du site] ne dépose actuellement aucun cookie. Nous ne suivons aucune donnée personnelle, 
+            Le site philipot-osteo ne dépose actuellement aucun cookie. Nous ne suivons aucune donnée personnelle, 
             et nous ne collectons pas d'informations via des cookies. Vous pouvez naviguer sur le site en toute tranquillité.
           </p>
         </section>
@@ -59,11 +59,11 @@ const CookiePolicy = () => {
           <h3 className="font-semibold text-gray-800 mb-4">Pour plus d'informations sur la gestion des cookies, vous pouvez consulter les pages d'aide de votre navigateur :</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { name: 'Google Chrome', href: '#' },
-              { name: 'Mozilla Firefox', href: '#' },
-              { name: 'Internet Explorer', href: '#' },
-              { name: 'Safari', href: '#' },
-              { name: 'Opera', href: '#' }
+              { name: 'Google Chrome', href: 'www.google.com' },
+              { name: 'Mozilla Firefox', href: 'www.mozilla.org' },
+              { name: 'Microsoft Edge', href: 'www.microsoft.com' },
+              { name: 'Safari', href: 'www.apple.com/fr/safari/' },
+              { name: 'Opera', href: 'www.opera.com' }
             ].map((browser) => (
               <a
                 key={browser.name}
@@ -105,7 +105,7 @@ const CookiePolicy = () => {
           <p className="text-gray-600 mb-6">
             Pour toute question relative aux mentions légales du site, vous pouvez nous contacter à l'adresse suivante : 
             <a href="mailto:[adresse e-mail de contact]" className="text-blue-600 hover:text-blue-800 ml-1">
-              [adresse e-mail de contact]
+              nathnathchav@gmail.com
             </a>
           </p>
           

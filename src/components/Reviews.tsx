@@ -2,7 +2,6 @@ import { useEffect } from "react";
 
 const Reviews = () => {
   useEffect(() => {
-    // Charger dynamiquement le script Elfsight
     const script = document.createElement("script");
     script.src = "https://static.elfsight.com/platform/platform.js";
     script.async = true;
