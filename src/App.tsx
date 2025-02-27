@@ -13,7 +13,7 @@ import Stress from './Pages/Femme';
 import ScrollToTop from './components/ScoolToTop';
 import Cookie from './Pages/CookiePage';
 import Privacy from './Pages/PrivacyPolicy';
-import CookieBanner from './components/CookieBanner'; // Ajout de l'importation
+import CookieBanner from './components/CookieBanner';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import Error from './Pages/NotFound';
@@ -23,7 +23,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Header />
-      <CookieBanner /> {/* Ajout du composant CookieBanner */}
+      <CookieBanner /> 
       <Analytics />
       
       <main>
