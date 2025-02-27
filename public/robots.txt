@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.philipot-osteo-aigondigne-niort.fr/sitemap.xml
