@@ -1,12 +1,11 @@
 import { useState, useRef, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
-  const location = useLocation();
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
@@ -28,6 +27,24 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('click', handleClickOutside);
+    } else {
+      document.removeEventListener('click', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [isOpen]);
 
   const handleContactClick = () => {
     setIsOpen(false);
@@ -60,10 +77,6 @@ const Header = () => {
         avisElement.scrollIntoView({ behavior: 'smooth' });
       }
     }, 100);
-  };
-
-  const isActive = (hash: string) => {
-    return location.hash === hash;
   };
 
   return (
@@ -116,7 +129,14 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-blue-900 p-2" aria-label="Toggle menu">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setIsOpen(!isOpen);
+              }}
+              className="text-blue-900 p-2"
+              aria-label="Toggle menu"
+            >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
@@ -128,32 +148,33 @@ const Header = () => {
             <div className="flex flex-col space-y-4">
               <a
                 href="#accueil"
-                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#accueil') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+                className={`text-blue-900 hover:text-blue-700 py-2 ${activeSection === 'accueil' ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={() => setIsOpen(false)}
               >
                 Accueil
               </a>
               <a
                 href="#services"
-                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#services') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+                className={`text-blue-900 hover:text-blue-700 py-2 ${activeSection === 'service' ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={handleServiceClick}
               >
                 Motifs de consultation
               </a>
               <a
-                href="#contact"
-                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#contact') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
-                onClick={handleContactClick}
-              >
-                Contact
-              </a>
-              <a
                 href="#reviews"
-                className={`text-blue-900 hover:text-blue-700 py-2 ${isActive('#reviews') ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+                className={`text-blue-900 hover:text-blue-700 py-2 ${activeSection === 'Avis' ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
                 onClick={handleAvisClick}
               >
                 Avis
               </a>
+              <a
+                href="#contact"
+                className={`text-blue-900 hover:text-blue-700 py-2 ${activeSection === 'contacte' ? 'bg-blue-100 rounded-md px-3 py-2' : ''}`}
+                onClick={handleContactClick}
+              >
+                Contact
+              </a>
+              
               <a
                 href="https://www.doctolib.fr/osteopathe/aigondigne/quentin-philipot"
                 target="_blank"
