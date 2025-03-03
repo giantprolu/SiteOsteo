@@ -20,10 +20,15 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-1">Adresse</h3>
-                    <p className="text-gray-700">
-                      32 Rte Ricardo<br />
-                      79370 Aigondigné
-                    </p>
+                    <a
+                      
+                      href="https://maps.app.goo.gl/bjS5DPHacV9mvPqb6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-700 hover:text-blue-600"
+                      >
+                      32 Rte Ricardo<br /> 79370 Aigondigné
+                      </a>
                   </div>
                 </div>
                 
