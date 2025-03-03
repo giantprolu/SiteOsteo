@@ -1,11 +1,16 @@
 import { ExternalLink } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const CookiePolicy = () => {
   const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <Helmet>
+        <title>Cookies</title>
+        <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/cookie-policy" />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 py-12">
         <button
           onClick={() => navigate(-1)}

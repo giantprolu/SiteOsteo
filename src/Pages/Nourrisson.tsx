@@ -1,9 +1,14 @@
+import { Helmet } from "react-helmet";
 const DouleursMusculoSquelettiques = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:0666211563';
   };
   return (
     <div className="container mx-auto px-4 py-20">
+      <Helmet>
+        <title>Ostéopathie du nourrisson</title>
+        <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/motifs/osteopathie-du-nourrisson" />
+      </Helmet>
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie du nourrisson</h1>
       <p className="text mb-8">
       L'ostéopathie du nourrisson est une approche douce et non invasive visant à aider à résoudre certains déséquilibres ou inconforts chez les bébés, 

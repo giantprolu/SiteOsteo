@@ -1,11 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import { Home, ArrowLeft } from 'lucide-react';
+import { Helmet } from 'react-helmet';
 
 const NotFound = () => {
   const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex items-center justify-center px-4">
+      <Helmet>
+        <title>Page non trouvée</title>
+        <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/404" />
+      </Helmet>
       <div className="max-w-lg w-full text-center">
         <div className="relative">
           <h1 className="text-9xl font-bold text-gray-200">404</h1>
