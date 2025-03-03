@@ -1,9 +1,15 @@
+import { Helmet } from 'react-helmet';
+
 const DouleursMusculoSquelettiques = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:0666211563';
   };
     return (
       <div className="container mx-auto px-4 py-20">
+        <Helmet>
+          <title>Honoraires</title>
+          <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/motifs/honoraires" />
+        </Helmet>
         <h1 className="text-3xl font-bold text-blue-900 mb-6">Honoraires </h1>
         <p className="text-gray-700 mt-4">
         Une consultation d’ostéopathie n’est pas remboursée par l’Assurance Maladie. 

@@ -1,19 +1,24 @@
+import { Helmet } from "react-helmet";
 const DouleursMusculoSquelettiques = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:0666211563';
   };
   return (
     <div className="container mx-auto px-4 py-20">
+      <Helmet>
+        <title>Consultation d’ostéopathie</title>
+        <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/motifs/consultation-osteopathie" />
+      </Helmet>
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie</h1>
       <h3 className="text mb-8">
-           L'ostéopathie est de plus en plus reconnue pour son efficacité dans le traitement des douleurs musculo-squelettiques.
+          L'ostéopathie est de plus en plus reconnue pour son efficacité dans le traitement des douleurs musculo-squelettiques.
           Elle s'avère également bénéfique pour divers troubles, tels que les problèmes digestifs, urinaires, gynécologiques, respiratoires, ainsi que pour les céphalées et les troubles ORL.
         </h3>
       
-       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour qui s'adresse l'ostéopathie ?
-       </h2>
-       <p className="text-gray-700 mt-4">
-       L'ostéopathie est une approche adaptée à tous les âges de la vie. Voici les principaux profils de patients qui peuvent consulter un ostéopathe : 
+      <h2 className="text-2xl font-semibold text-blue-900 mt-6">Pour qui s'adresse l'ostéopathie ?
+      </h2>
+      <p className="text-gray-700 mt-4">
+      L'ostéopathie est une approche adaptée à tous les âges de la vie. Voici les principaux profils de patients qui peuvent consulter un ostéopathe : 
         </p>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
         <li><strong>Les nourrissons et enfants </strong>: coliques, RGO, plagiocéphalie, troubles ORL répétitifs, etc.</li>

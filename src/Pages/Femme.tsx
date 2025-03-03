@@ -1,9 +1,14 @@
+import { Helmet } from "react-helmet";
 const OsteopathieFemmeEnceinte = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:0666211563';
   };
   return (
     <div className="container mx-auto px-4 py-20">
+      <Helmet>
+        <title>Ostéopathie de la femme enceinte</title>
+        <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/motifs/osteopathie-de-la-femme-enceinte" />
+      </Helmet>
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie de la femme enceinte</h1>
       <p className="text mb-8">
       La grossesse est une période de profonds changements pour le corps d’une femme. L’ostéopathie offre une approche douce et naturelle pour soulager les tensions et favoriser un bien-être optimal jusqu’à l’accouchement.

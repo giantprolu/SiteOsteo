@@ -1,9 +1,15 @@
+import { Helmet } from "react-helmet";
+
 const DouleursMusculoSquelettiques = () => {
   const handlePhoneClick = () => {
     window.location.href = 'tel:0666211563';
   };
   return (
     <div className="container mx-auto px-4 py-20">
+      <Helmet>
+        <title>Ostéopathie du sportif</title>
+        <link rel="canonical" href="https://www.philipot-osteo-aigondigne-niort.fr/motifs/osteopathie-du-sportif" />
+      </Helmet>
       <h1 className="text-3xl font-bold text-blue-900 mb-6">Ostéopathie du sportif</h1>
       <p className="text mb-8">
       Passionnée par de multiples sports, votre ostéopathe reçoit des sportifs diverses et variés au cabinet, allant du sportif loisir au sportif compétiteur. 
