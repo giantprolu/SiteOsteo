@@ -42,9 +42,9 @@ const DouleursMusculoSquelettiques = () => {
         06 66 21 15 63
       </button>
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Formations</h2>
-      <p className="text-gray-700 mt-6 italic">2021 : « Ostéopathie et Trail / Running » - IdHEO Nantes</p>
+      <p className="text-gray-700 mt-4 italic">2021 : « Ostéopathie et Trail / Running » - IdHEO Nantes</p>
       <p className="text-gray-700 mt-4 italic">2024 : « Comment traiter les tendinites et les blessures musculaires ? » - CFPCO</p>
-      
+      <p className="text-gray-700 mt-4 italic">2025 : « Accompagnement du coureur à pied 2.0 : de l'évaluation au traitement » - 4FOOT Solution</p>      
     </div>
   );
 };
