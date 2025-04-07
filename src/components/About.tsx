@@ -54,6 +54,7 @@ const About = () => {
                 Diplôme d'Ostéopathe (D.O.) - Institut des Hautes Études Ostéopathiques de Nantes (IDHEO-Nantes)</li>
                 <li>Ostéopathie pédiatrique, du nourrisson à l'adolescent - CFPCO</li>
                 <li>Ostéopathie et Trail / Running - IdHEO Nantes</li>
+                <li>Accompagnement du coureur à pied 2.0 : de l'évaluation au traitement - 4FOOT Solution</li>
                 <li>Comment traiter les tendinites et les blessures musculaires ? - CFPCO</li>
                 <li>Manipulations des nerfs périphériques… Ou pas ? <br/>Prise en charge des sciatiques et cruralgies en thérapie manuelle - CFPCO</li>
                 <li>E-Learning - Neurosciences de la douleur - CFPCOFormation post gradué</li>
