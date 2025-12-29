@@ -3,7 +3,6 @@ import About from '../components/About';
 import Services from '../components/Services';
 import Reviews from '../components/Reviews';
 import Contact from '../components/Contact';
-import CookieBanner from '../components/CookieBanner';
 import Footer from './Footer';
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
         <Services />
         <Reviews />
         <Contact />
-      <CookieBanner />
       <Footer />
     </>
   );

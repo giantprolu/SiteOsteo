@@ -19,12 +19,12 @@ const DouleursMusculoSquelettiques = () => {
         </p>
       <h2 className="text-2xl font-semibold text-blue-900 mt-6">Honoraires pratiqués par votre ostéopathe :</h2>
       <ul className="list-disc list-inside text-gray-700 mt-4 space-y-2">
-        <li>Première consultation : 55€</li>
-        <li>Consultation de suivi : 55€</li>
-        <li>Sportif : 55€</li>
-        <li>Femme enceinte : 55€</li>
-        <li>Nourrisson : 55€</li>
-        <li>Enfant : 55€</li>
+        <li>Première consultation : 60€</li>
+        <li>Consultation de suivi : 60€</li>
+        <li>Sportif : 60€</li>
+        <li>Femme enceinte : 60€</li>
+        <li>Nourrisson : 60€</li>
+        <li>Enfant : 60€</li>
       </ul>
       <p className="text-gray-700 mt-4 font-bold">
       Pour toute information sur les consultations d’ostéopathie vous pouvez appeler directement le cabinet en cliquant sur bouton ci-dessous
